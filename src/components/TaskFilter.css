@@ -1,0 +1,18 @@
+.task-filter-container {
+    display: flex;
+  }
+  
+  .task-filter-container button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #041d61;
+    background-color: #041d61;
+    cursor: pointer;
+  }
+  
+  .task-filter-container button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
